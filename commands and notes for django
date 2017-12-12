@@ -1,0 +1,16 @@
+"django-admin startproject project_name" //command for starting a new project of name project_name it creates a directory which contains all the files of the project
+FILES created inside project_name directory:
+  project_name directory(inside it)
+      __init__.py
+      settings.py
+      urls.py
+      wsgi.py
+  manage.py
+wsgi:web serer gateway interfaces
+python manage.py runserver  //command to start web server for djangoproject
+python manage.py startapp //command for start a new app for a django project
+an app is just a part of the website that can be simply explained in one sentence i.e. it defines small parts of a website
+
+python manage.py migrate //command for synchronising database with the apps .
+python manage.py makemigrations music //command for making migrations for any changes in an app database.
+pythonmanage.py sqlmigrate music 0001 // checing sql changes made by above command
